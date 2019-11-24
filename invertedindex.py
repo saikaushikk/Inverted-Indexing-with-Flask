@@ -118,7 +118,7 @@ index = InvertedIndex(db)
 
 
 def indexing(filename, searchterm):
-    with open(filename, encoding="utf8") as f:
+    with open(filename, encoding="utf8",errors="ignore") as f:
         lines = f.read().lower()
     """This is the main function that is being used in the app for uploading a text file and searching for a term. 
         It returns a list of max length 10 of the search results for the search term."""
