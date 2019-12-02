@@ -1,4 +1,4 @@
-# tap-search
+Inverted-Indexing-with-Flask
 
 1)Run server.py<br>
 2)Link the txt file and enter the search term.<br>
